@@ -5,7 +5,7 @@
                 <div class="col-md-2 footer-info-grid links">
                     <h4>Quick links</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li> 
+                        <li><a href="home.php">Home</a></li> 
                         <li><a href="about.html">About</a></li> 
                         <li><a href="codes.html">Services</a></li> 
                         <li><a href="gallery.html">Gallery</a></li> 
@@ -27,16 +27,16 @@
                 <div class="col-md-3 footer-grid">
                    <h4>Instagram</h4>
                     <div class="footer-grid-instagram">
-                        <a href="#"><img src="/asset/images/f1.jpg" alt=" " class="img-responsive"></a>
+                        <a href="#"><img src="<?php echo base_url('asset/images/f1.jpg');?>" alt=" " class="img-responsive"></a>
                     </div>
                     <div class="footer-grid-instagram">
-                        <a href="#"><img src="/asset/images/f2.jpg" alt=" " class="img-responsive"></a>
+                        <a href="#"><img src="<?php echo base_url('asset/images/f2.jpg');?>" alt=" " class="img-responsive"></a>
                     </div>
                     <div class="footer-grid-instagram">
-                        <a href="#"><img src="/asset/images/f3.jpg" alt=" " class="img-responsive"></a>
+                        <a href="#"><img src="<?php echo base_url('asset/images/f3.jpg');?>" alt=" " class="img-responsive"></a>
                     </div>
                     <div class="footer-grid-instagram">
-                        <a href="#"><img src="/asset/images/f4.jpg" alt=" " class="img-responsive"></a>
+                        <a href="#"><img src="<?php echo base_url('asset/images/f4.jpg');?>" alt=" " class="img-responsive"></a>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -76,8 +76,8 @@
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
     
-    <script type="text/javascript" src="/asset/js/jquery-2.1.4.min.js"></script>
-    <!-- Dropdown-Menu-JavaScript -->
+    <script type="text/javascript" src="<?php echo base_url('asset/js/jquery-2.1.4.min.js');?>"></script>
+    
     <script>
         $(document).ready(function(){
             $(".dropdown").hover(            
@@ -93,19 +93,19 @@
         });
     </script>
     <!-- //Dropdown-Menu-JavaScript -->
-    <script type="text/javascript" src="/asset/js/jquery.zoomslider.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('asset/js/jquery.zoomslider.min.js');?>"></script>
     <!-- search-jQuery -->
-    <script src="/asset/js/main.js"></script>
+    <script src="<?php echo base_url('asset/js/main.js');?>"></script>
 
     <!--/script-->
-    <script src="/asset/js/simplePlayer.js"></script>
+    <script src="<?php echo base_url('asset/js/simplePlayer.js');?>"></script>
     <script>
             $("document").ready(function() {
                     $("#video").simplePlayer();
             });
     </script>
     <!-- flexSlider -->
-    <script defer src="/asset/js/jquery.flexslider.js"></script>
+    <script defer src="<?php echo base_url('asset/js/jquery.flexslider.js');?>"></script>
     <script type="text/javascript">
         $(window).load(function(){
             $('.flexslider').flexslider({
@@ -116,10 +116,9 @@
             });
         });
     </script>
-    <!--//script for portfolio-->
     <!-- Calendar -->
-    <link rel="stylesheet" href="/asset/css/jquery-ui.css" />
-    <script src="/asset/js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url('asset/css/jquery-ui.css');?>" />
+    <script src="<?php echo base_url('asset/js/jquery-ui.js');?>"></script>
     <script>
         $(function() {
               $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
@@ -127,8 +126,8 @@
     </script>
     <!-- //Calendar -->
     
-    <script type="text/javascript" src="/asset/js/move-top.js"></script>
-    <script type="text/javascript" src="/asset/js/easing.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('asset/js/move-top.js');?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('asset/js/easing.js');?>"></script>
 
     <script type="text/javascript">
         jQuery(document).ready(function($) {
@@ -144,9 +143,6 @@
             $().UItoTop({ easingType: 'easeOutQuart' });
         });
     </script>
-    <!--end-smooth-scrolling-->
-    <!--js for bootstrap working-->
-    <script src="/asset/js/bootstrap.js"></script>
-    <!-- //for bootstrap working -->
+    <script src="<?php echo base_url('asset/js/bootstrap.js');?>"></script>
 </body>
 </html>

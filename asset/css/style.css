@@ -169,6 +169,11 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     display: block;
     text-transform: uppercase;
 }
+.navbar-header h2 {
+    font-size: 2em;
+    display: block;
+    text-transform: uppercase;
+}
 .navbar-header h1 a {
         color: #FFFFFF;
     text-decoration: none;
@@ -178,7 +183,38 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     padding-bottom: 22px;
 	font-family: 'Open Sans', sans-serif;
 }
+.navbar-header h2 a {
+        color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 61px;
+    font-weight: bold;
+    padding-bottom: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
 h1 span {
+    color: #00acee;
+    font-size: 1.8em;
+}
+h2 span {
+    color: #00acee;
+    font-size: 1.8em;
+}
+.navbar-header h2 {
+    font-size: 2em;
+    display: block;
+    text-transform: uppercase;
+}
+.navbar-header h2 a {
+        color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 61px;
+    font-weight: bold;
+    padding-bottom: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+h2 span {
     color: #00acee;
     font-size: 1.8em;
 }
@@ -3236,6 +3272,9 @@ a.icon.gp {
 	.navbar-header h1 {
 		font-size: 1.8em;
 		text-align: left;
+	}.navbar-header h2 {
+		font-size: 1.8em;
+		text-align: left;
 	}
 	.cd-header-buttons {
 		position: absolute;
@@ -3482,8 +3521,18 @@ a.icon.gp {
 	.navbar-header h1 {
 		font-size: 1.6em;
 		text-align: left;
+	}.navbar-header h2 {
+		font-size: 1.6em;
+		text-align: left;
 	}
 	.navbar-header h1 a {
+		color: #FFFFFF;
+		text-decoration: none;
+		display: inline-block;
+		line-height: 54px;
+		font-weight: bold;
+		padding-bottom: 24px;
+	}.navbar-header h2 a {
 		color: #FFFFFF;
 		text-decoration: none;
 		display: inline-block;
@@ -3983,6 +4032,14 @@ a.icon.gp {
     right: 10px;
 	}
 	.navbar-header h1 a {
+		color: #FFFFFF;
+		text-decoration: none;
+		display: inline-block;
+		line-height: 54px;
+		font-weight: bold;
+		padding-bottom: 15px;
+	}
+        .navbar-header h2 a {
 		color: #FFFFFF;
 		text-decoration: none;
 		display: inline-block;
