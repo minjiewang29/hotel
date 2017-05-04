@@ -96,7 +96,7 @@
         </div>
         
         <div class="col-md-6 w3l_about_bottom_right one">
-            <h3 class="tittle why">why choose us ?</h3>
+            <h3 class="tittle why">为什么选择我们 ?</h3>
             <p>Lorem Aenean aliquet nec mi et lacinia. Aliquam maximus iaculis mi, sed efficitur orci efficitur nec.</p>
             <div class="panel-group w3l_panel_group_faq" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
@@ -164,7 +164,7 @@
 
     <div class="about-bottom" id="ab">
 	<div class="col-md-6 w3l_about_bottom_right two">
-            <h3 class="tittle why">Book a Reservation</h3>
+            <h3 class="tittle why">预  订</h3>
             <div class="book-form">
                 <form action="#" method="post">
                     <div class="col-md-6 form-date-w3-agileits">
@@ -225,7 +225,7 @@
 	<div class="col-md-6 w3l_about_bottom_left">
             <img src="<?php echo base_url('asset/images/33.jpg');?>" alt="" class="img-responsive" />
             <div class="w3l_about_bottom_left_video book-text">
-                    <h4>BooK Now</h4>
+                    <h4>预订</h4>
             </div>
         </div>
 		
@@ -239,9 +239,9 @@
                 <div class="col-md-3 price-grid">
                     <div class="price-block agile">
                        <div class="price-gd-top pric-clr1">
-                            <h4>SINGLE ROOM</h4>
+                            <h4>单人间</h4>
                             <h3><span>$</span>79</h3>
-                            <h5>1 Night</h5>
+                            <h5>1 晚</h5>
                        </div>
                        <div class="price-gd-bottom">
                             <div class="price-list">
@@ -255,7 +255,7 @@
                                 <h6 class="bed"><i class="fa fa-bed" aria-hidden="true"></i></h6>
                             </div>
                             <div class="price-selet pric-sclr1">		    			   
-                                <a href="#ab" class="scroll" >Book Now</a>
+                                <a href="#ab" class="scroll" >预订</a>
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                         <div class="price-gd-top pric-clr2">
                             <h4>THE COTTAGE</h4>
                             <h3><span>$</span>119</h3>
-                            <h5>1 Night</h5>
+                            <h5>1 晚</h5>
                         </div>
                         <div class="price-gd-bottom">
                             <div class="price-list">
@@ -279,7 +279,7 @@
                                 <h6 class="bed two"><i class="fa fa-bed" aria-hidden="true"></i></h6>
                             </div>
                             <div class="price-selet pric-sclr2">
-                                <a href="#ab" class="scroll" >Book Now</a>
+                                <a href="#ab" class="scroll" >预订</a>
                             </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                         <div class="price-gd-top pric-clr3">
                             <h4>GUEST HOUSE</h4>
                             <h3><span>$</span>159</h3>
-                            <h5>1 Night</h5>
+                            <h5>1 晚</h5>
                         </div>
                         <div class="price-gd-bottom">
                             <div class="price-list">
@@ -303,7 +303,7 @@
                                 <h6 class="bed three"><i class="fa fa-bed" aria-hidden="true"></i></h6>
                             </div>
                             <div class="price-selet pric-sclr3">
-                                <a href="#ab" class="scroll" >Book Now</a>
+                                <a href="#ab" class="scroll" >预订</a>
                             </div>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                         <div class="price-gd-top pric-clr4">
                             <h4>THE SEA VILLA</h4>
                             <h3><span>$</span> 199</h3>
-                            <h5>1 Night</h5>
+                            <h5>1 晚</h5>
                         </div>
                         <div class="price-gd-bottom">
                             <div class="price-list">
@@ -327,7 +327,7 @@
                                 <h6 class="bed four"><i class="fa fa-bed" aria-hidden="true"></i></h6>
                             </div>
                             <div class="price-selet pric-sclr4">
-                                <a href="#ab" class="scroll" >Book Now</a>
+                                <a href="#ab" class="scroll" >预订</a>
                             </div>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
             </div>
         </div>
     </div>
-
+<!--
     <div class="guests-agile">
         <h3 class="tittle">Our Guests</h3>
         <div class="w3_agileits_testimonial_grids">
@@ -375,4 +375,4 @@
             </section>
         </div>
     </div>
-
+-->

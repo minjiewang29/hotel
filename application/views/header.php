@@ -35,7 +35,12 @@
                 <a class="facebook" href="https://www.facebook.com/jingzhi.su1" target="_balck"><i class="fa fa-facebook"></i></a>
                 <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
                 <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
-                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                <a class="linkedin" href="weixin://contacts/profile/gh_dd4b2c2ada8b"><i class="fa fa-linkedin"></i></a>
+                <!--
+                <img  style="CURSOR: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=1048482580&o=minjie-pc&q=7', 
+                            '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" 
+                            SRC=http://wpa.qq.com/pa?p=1:1048482580:1 alt="QQ">
+                -->
             </div>
             <div class="agileits-contact-info text-right">
                 <ul>
@@ -81,7 +86,7 @@
                             </li>
                             
                             <li>
-                                <a href="<?php echo base_url('About');?>">关于我们</a>
+                                <a href="<?php echo base_url('about');?>">关于我们</a>
                             </li>
                         </ul>
                     </div>
