@@ -24,6 +24,12 @@
         <link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
         <!--//web-fonts-->
+        <script type="text/javascript" src="<?php echo base_url('asset/js/jquery-2.1.4.min.js');?>"></script>
+        <script>
+            $(document).ready(function(){
+                $.ajax({url: "<?php echo base_url('counter/index/'.$page);?>"});
+            });
+        </script>
 
     </head>
 <body>
@@ -72,20 +78,20 @@
                     <!-- navbar-header -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active">
+                            <li <?php if (isset($page) && $page==='home'){echo 'class="active"';} ?>>
                                 <a href="<?php echo base_url('home');?>">首页</a>
                             </li>
-                            <li>
+                            <li <?php if (isset($page) && $page==='about'){echo 'class="active"';} ?>>
                                 <a href="<?php echo base_url('About');?>">预订</a>
                             </li>
-                            <li>
+                            <li <?php if (isset($page) && $page==='about'){echo 'class="active"';} ?>>
                                 <a href="<?php echo base_url('About');?>">酒店图集</a>
                             </li>
-                            <li>
+                            <li <?php if (isset($page) && $page==='about'){echo 'class="active"';} ?>>
                                 <a href="<?php echo base_url('About');?>">非洲游记</a>
                             </li>
                             
-                            <li>
+                            <li <?php if (isset($page) && $page==='about'){echo 'class="active"';} ?>>
                                 <a href="<?php echo base_url('about');?>">关于我们</a>
                             </li>
                         </ul>

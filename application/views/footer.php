@@ -79,7 +79,6 @@
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
     
-    <script type="text/javascript" src="<?php echo base_url('asset/js/jquery-2.1.4.min.js');?>"></script>
     <script>
         $(document).ready(function(){
             $(".dropdown").hover(            

@@ -6,83 +6,13 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p>
             </div>
-            
-            <div class="w3_agileits_services_grids">
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="<?php echo base_url('asset/images/5.jpg');?>" alt="service-img">
-			</div>
-                        <h3>高级套房</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                            <div class="w3_agileits_services_grid_1">
-                                <img src="<?php echo base_url('asset/images/6.jpg');?>" alt="service-img">
-                            </div>
-                            <h3>豪华套房</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="<?php echo base_url('asset/images/7.jpg');?>" alt="service-img">
-                        </div>
-                        <h3>泳 池</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="<?php echo base_url('asset/images/8.jpg');?>" alt="service-img">
-                        </div>
-                        <h3>美容按摩</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                
-                <div class="clearfix"> </div>
-            </div>
-<!--				  
-            <div class="agileinf-button">    
-                <a class="read" href="single.html">Read More</a>
-            </div>
--->
+
+            <?php include 'services.php';?>
         </div>
     </div>
     
-    <div class="featured-facility">
-        <div class="spa-agile">
-            <h3 class="tittle fea">特色设施</h3>
-            <div class="col-md-3 spa-grid">
-                <i class="fa fa-cutlery" aria-hidden="true"></i>
-                <h4>中国风味餐厅</h4>
-            </div>
-				
-            <div class="col-md-3 spa-grid">
-                <i class="fa fa-glass" aria-hidden="true"></i>
-                <h4>小酒吧</h4>
-            </div>
-            
-            <div class="col-md-3 spa-grid lost">
-                <i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
-                <h4>健身房</h4>
-            </div>
-				
-            <div class="col-md-3 spa-grid lost">
-                <i class="fa fa-car" aria-hidden="true"></i>
-                    <h4>机场接送</h4>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
+    <?php include 'featured-facility.php' ?>
+    
     <div class="about-bottom">
         <div class="col-md-6 w3l_about_bottom_left">
             <div class="video-grid-single-page-agileits">
@@ -206,13 +136,13 @@
                     <div class="col-md-6 form-left-agileits-w3layouts second-agile">
                         <label><i class="fa fa-users" aria-hidden="true"></i> No.of People :</label>
                         <select class="form-control">
-                                <option></option>
-                                <option>1 Person</option>
-                                <option>2 People</option>
-                                <option>3 People</option>
-                                <option>4 People</option>
-                                <option>5 People</option>
-                                <option>More</option>
+                            <option></option>
+                            <option>1 Person</option>
+                            <option>2 People</option>
+                            <option>3 People</option>
+                            <option>4 People</option>
+                            <option>5 People</option>
+                            <option>More</option>
                         </select>
                     </div>
                     <div class="clearfix"></div>
@@ -240,7 +170,7 @@
                     <div class="price-block agile">
                        <div class="price-gd-top pric-clr1">
                             <h4>单人间</h4>
-                            <h3><span>$</span>79</h3>
+                            <h3><span>￥</span>79</h3>
                             <h5>1 晚</h5>
                        </div>
                        <div class="price-gd-bottom">
@@ -336,7 +266,8 @@
             </div>
         </div>
     </div>
-<!--
+    
+    <!--
     <div class="guests-agile">
         <h3 class="tittle">Our Guests</h3>
         <div class="w3_agileits_testimonial_grids">
@@ -375,4 +306,4 @@
             </section>
         </div>
     </div>
--->
+    -->
