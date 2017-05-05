@@ -25,11 +25,6 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
         <!--//web-fonts-->
         <script type="text/javascript" src="<?php echo base_url('asset/js/jquery-2.1.4.min.js');?>"></script>
-        <script>
-            $(document).ready(function(){
-                $.ajax({url: "<?php echo base_url('counter/index/'.$page);?>"});
-            });
-        </script>
 
     </head>
 <body>
