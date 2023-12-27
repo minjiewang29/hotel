@@ -6,7 +6,7 @@
             <div class="ab-w3l-spa">
                 <img src="<?php echo base_url('asset/images/ab.jpg');?>" alt="" class="img-responsive" />
                 <p>
-                    介绍酒店情况.
+                    介绍酒店情况
                 </p>
             </div>
             
